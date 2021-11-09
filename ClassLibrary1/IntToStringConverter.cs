@@ -1,5 +1,5 @@
 ﻿using System.Text;
-using NUnit.Framework;
+//using NUnit.Framework;
 
 namespace DataWorksTasks
 {
@@ -7,10 +7,10 @@ namespace DataWorksTasks
 	{
 		private readonly char[] _charsContainer = new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
-	  [TestCase(2225, ExpectedResult = "2225")]
+	    /*[TestCase(2225, ExpectedResult = "2225")]
 		[TestCase(-1503, ExpectedResult = "-1503")]
 		[TestCase(int.MinValue, ExpectedResult = "-2147483648")]
-		[TestCase(int.MaxValue, ExpectedResult = "2147483647")]
+		[TestCase(int.MaxValue, ExpectedResult = "2147483647")]*/
 		public string Convert(int num)
 		{
 			var temp = new StringBuilder();
